@@ -1,15 +1,15 @@
-#Exercise 02 - Analysis  of sells
+# Exercise 02 - Analysis  of sells
 
 This exercise talk about Analysis  of sells.
 
-##Built with
+## Built with
 
 * Apache Netbeans IDE 11.3
 
-##Author
+## Author
 
 Thiago Oliveira
 
-##License
+## License
 
 This project is licensed under the MIT License
