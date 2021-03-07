@@ -16,6 +16,13 @@ public class ImperativeProgrammingArray01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int[] firstArr = {3, 5, 4, 2, 2, 5, 3, 2, 5, 9};
+        int[] secondArr = {7, 15, 20, 0, 18, 4, 55, 23, 8, 6};
+        int[] thirdArr = new int[20];
+        for (int i = 0; i < thirdArr.length; i++) {
+            thirdArr[i] = (i % 2 == 0) ? firstArr[i / 2] : secondArr[i / 2];
+            System.out.println(thirdArr[i]);
+        }
     }
-    
+
 }
